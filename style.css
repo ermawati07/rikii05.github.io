@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.banner {
+    background: url('img/HD-Desktop-Wallpaper-Images.png') no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: aliceblue;
+}
+
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 30px 15px 30px 0;
+    transition:.3s;
+    cursor: pointer;
+}
+
+.home-sci a:hover {
+    background: white;
+    color: #100720;
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
+}
+
+
+
+.container .navbar-brand {
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .1s;
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.container .nav-item {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'ENGRAVERS MT';
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .1s;
+}
+
+.container .display-6 {
+    position: relative;
+    font-size: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    font-family: 'ENGRAVERS MT';
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;
+}
+
+.container .btn-danger {
+    background: #fff;
+    position: relative;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay:.1s;
+    letter-spacing: 1px;
+    box-shadow: 0 0 6px cyan,
+    0 0 25px cyan
+}
+.btn-danger:hover {
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
+}
+
+.container .displai-1 {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    background: transparent;
+    font-family: 'ENGRAVERS MT';
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;
+}
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color:black;
+    background-color: white;
+    border-color: #dc3545;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 6px cyan,
+    0 0 25px cyan
+}
+.lingkaran:hover {
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
+}
+
+.container-fluid .display-3 {
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    background: transparent;
+    color: black;
+    font-weight: 700;
+    font-family: 'ENGRAVERS MT';
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;   
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+    font-size: 85px;
+}
+
+
+.crop-img {
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 0 6px cyan,
+    0 0 25px cyan
+}
+
+.crop-img:hover {
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid cyan;
+    border-radius: 50%;
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: cyan;
+    line-height: 40px;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+
+}
+
+
+.container-fluid p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    font-family: cursive;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .1s;
+}
+
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.container-fluid .mt-3 {
+    color: white;
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    font-family: colonna mt;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+.container-fluid .poi {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    /* cursor: pointer; */
+    font-family: 'colonna mt';
+}
+
+
+.container-fluid .l {
+    color: #fff;
+}
+
+.container-fluid .h {
+    color: black;
+}
+
+.lop{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 500px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 0 100px 0 -60px;
+    transition:.3s;
+    cursor: pointer;
+}
+
+
+.lop:hover {
+    background: white;
+    color: #100720;
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
+}
+
+.container-fluid .card-title {
+    color: black;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    font-family: colonna mt;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+img{
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .1s;
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.container-fluid .op {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 800px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition:.3s;
+    object-fit: cover;
+    background: transparent;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.container-fluid .oo {
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    background: transparent;
+    animation-delay: 2s;
+    box-shadow: 0 0 6px cyan,
+    0 0 25px cyan
+}
+
+.container-fluid .oo:hover {
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
+}
+
+
+.container-fluid h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    background: transparent;
+    font-family: 'ENGRAVERS MT';
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;   
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.container-fluid .social {
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    background: white;
+    color: black;
+    animation-delay: calc(.2s * var(--i));
+    margin: 30px 15px 30px 0;
+    transition:.3s;
+    cursor: pointer;
+    box-shadow: 0 0 6px cyan,
+    0 0 25px cyan
+}
+
+.container-fluid .social:hover {
+    box-shadow: 0 0 58px cyan, 0 0 26px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan
+}
+
+
+.container-fluid .col-mg-6 {
+    display: inline;
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+
+
+
